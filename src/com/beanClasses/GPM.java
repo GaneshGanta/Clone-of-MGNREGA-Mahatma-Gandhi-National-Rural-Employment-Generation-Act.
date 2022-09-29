@@ -3,7 +3,6 @@ package com.beanClasses;
 public class GPM {
 	
 	
-	
 	private int gpmId;
 	private String gpmName;
 	private String phone;

@@ -3,6 +3,7 @@ package com.beanClasses;
 public class Project {
 	
 	
+	
 	private int projectId;
 	private String  projectName;
 	private int budjget;

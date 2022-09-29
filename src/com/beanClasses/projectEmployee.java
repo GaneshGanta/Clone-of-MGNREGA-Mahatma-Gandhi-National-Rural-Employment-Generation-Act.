@@ -9,6 +9,7 @@ public class projectEmployee {
 	private String employeeName;
 	private int wage;
 	private int days;
+	
 	public int getProjectId() {
 		return projectId;
 	}
