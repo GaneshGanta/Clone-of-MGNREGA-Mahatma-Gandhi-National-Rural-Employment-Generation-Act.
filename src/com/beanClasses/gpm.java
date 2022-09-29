@@ -1,6 +1,6 @@
 package com.beanClasses;
 
-public class GPM {
+public class gpm {
 	
 	
 	private int gpmId;
@@ -31,13 +31,13 @@ public class GPM {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	public GPM(String gpmName, String phone, String password) {
+	public gpm(String gpmName, String phone, String password) {
 		super();
 		this.gpmName = gpmName;
 		this.phone = phone;
 		this.password = password;
 	}
-	public GPM() {
+	public gpm() {
 		super();
 	}
 	
