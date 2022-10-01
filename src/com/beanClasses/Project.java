@@ -40,13 +40,22 @@ public class Project {
 	public void setBudjget(int budjget) {
 		this.budjget = budjget;
 	}
+	
+	
 	@Override
 	public String toString() {
-		return "Project [projectId=" + projectId + ", projectName=" + projectName + ", budjget=" + budjget + "]";
+		return "Project [projectId=" + projectId + ", projectName=" + projectName + ", budjget=" + budjget
+				+ ", dailyWage=" + dailyWage + "]";
 	}
-	
 	public Project() {
 		super();
+	}
+	public Project(int projectId, String projectName, int budjget, int dailyWage) {
+		super();
+		this.projectId = projectId;
+		this.projectName = projectName;
+		this.budjget = budjget;
+		this.dailyWage = dailyWage;
 	}
 	
 	

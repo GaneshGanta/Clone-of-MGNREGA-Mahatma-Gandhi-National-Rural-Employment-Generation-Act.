@@ -9,11 +9,11 @@ import com.exceptions.*;
 public interface BDO {
 	
 	
-	public String createProject(String name, int budget,int dailyWage);
+	public String createProject(String projectName, int projectBudget, int dailyWage);
 	
 	public List<Project> viewAllProjects() throws ProjectException;
 	
-	public  String createGPM(String gpmName,String phone,String password);
+	public  String createGPM(String gpmName,String password); 
 	
 	public List<gpm> viewAllGPM () throws GPMException;
 	
